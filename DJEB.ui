@@ -39,7 +39,7 @@
       <string>Login</string>
      </property>
     </widget>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -59,7 +59,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_Username"/>
+         <widget class="QLineEdit" name="lineEdit_Username">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
         </item>
        </layout>
       </item>
@@ -76,6 +80,9 @@
          <widget class="QLineEdit" name="lineEdit_Password">
           <property name="enabled">
            <bool>true</bool>
+          </property>
+          <property name="text">
+           <string/>
           </property>
          </widget>
         </item>

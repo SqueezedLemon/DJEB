@@ -25,16 +25,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        adminwindow.cpp \
         main.cpp \
         mainwindow.cpp \
         second.cpp
 
 HEADERS += \
+        adminwindow.h \
         mainwindow.h \
         second.h
 
 FORMS += \
         DJEB.ui \
+        adminwindow.ui \
         second.ui
 
 # Default rules for deployment.
