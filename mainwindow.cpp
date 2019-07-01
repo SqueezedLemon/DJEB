@@ -24,7 +24,7 @@ void MainWindow::on_pushButton_clicked()
     QString Username = ui->lineEdit_Username->text();
     QString Password = ui->lineEdit_Password->text();
 
-    if (Username == "test" && Password == "test")
+    if (Username == "test" && Password == "test" || Username == "crack" && Password == "crack")
     {
         hide();
         second = new Second(this);
